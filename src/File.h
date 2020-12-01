@@ -9,17 +9,21 @@
 #include <string>
 #include <strstream>
 #include <sstream>
+#include <list>
 
 class File
 {
 public:
     File();
     void InputFile();
-    std::stringstream OutText();
+    void string();
+    std::list<std::string> OutText();
     void OutputFile();
 
 private:
-    std::stringstream ss{};
+    std::string m_string;
+    std::stringstream ss;
+    std::list<std::string> lines;
 };
 
 
