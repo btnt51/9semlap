@@ -17,8 +17,8 @@ void CMenu::menu()
         char item;
         std::cin >> item;
 
-        std::string str;
-        std::getline(std::cin, str);
+        //std::string str;
+        //std::getline(std::cin, str);
         CFile file;
         switch (item)
         {
