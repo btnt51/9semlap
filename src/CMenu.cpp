@@ -8,17 +8,16 @@ void CMenu::menu()
 {
     while (true)
     {
-        std::cout << "1)string\n"
-                  << "2)wstring\n"
-                  << "3)char\n"
-                  << "4)wchar_t\n"
-                  << "5)exit\n";
+        std::cout    << "Choose which type of data you want to work with. \n"
+                     << "To do this, enter the appropriate number. \n"
+                     << "1)string\n"
+                     << "2)wstring\n"
+                     << "3)char\n"
+                     << "4)wchar_t\n"
+                     << "To exit, enter \"5\".\n";
 
         char item;
         std::cin >> item;
-
-        //std::string str;
-        //std::getline(std::cin, str);
         CFile file;
         switch (item)
         {
