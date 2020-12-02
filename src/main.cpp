@@ -1,8 +1,6 @@
-#include <iostream>
-#include "File.h"
+#include "CMenu.h"
 
 int main() {
-    File file;
-    file.string();
+    CMenu::menu();
     return 0;
 }
