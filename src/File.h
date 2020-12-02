@@ -15,15 +15,14 @@ class File
 {
 public:
     File();
-    void InputFile();
     void string();
-    std::list<std::string> OutText();
-    void OutputFile();
+    void wstring();
+    void replace(std::string &Command);
+    void replace2(std::string &Command);
 
 private:
-    std::string m_string;
     std::stringstream ss;
-    std::list<std::string> lines;
+
 };
 
 

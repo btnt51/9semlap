@@ -2,6 +2,7 @@ int main(double seven,double eight)
 {
     int a=5,b=7;
     int c=a+b;
+    int d=2-10;
     ++ a;
     a ++;
     b --;
